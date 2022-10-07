@@ -11,7 +11,6 @@ import Pay from './routes/Pay';
 import Plan from './routes/Plan';
 import Player from './routes/Player';
 import Upload from './routes/Upload';
-import Videolist from './routes/Videolist';
 import Chatbox from './routes/Chatbox';
 import Notification from './routes/Notification';
 import Questionpage from './routes/Questionpage'
@@ -26,7 +25,6 @@ function App() {
     <Route path='/Upload' element={ <Upload />}/>
     <Route path='/Chatbox' element={ <Chatbox />}/>
     <Route path='/Player' element={ <Player />}/>
-    <Route path='Videolist' element={ <Videolist />}/>
     <Route path='/HomePage' element={ <HomePage  />}/>
     <Route path='/Login' element={ <Login />}/>
     <Route path='/QuestionList' element={ <Questionlist />}/>
