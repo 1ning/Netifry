@@ -18,7 +18,7 @@ import Questionpage from './routes/Questionpage'
 import Articlepage from './routes/Articlepage ';
 function App() {
     return(
-    <Routes>
+    <Routes basename='/index.html'>
     <Route path='/' element={ <HomePage />}/>
     <Route path='/Articlepage' element={ <Articlepage />}/>
     <Route path='/Questionpage' element={ <Questionpage />}/>
