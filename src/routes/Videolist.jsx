@@ -71,10 +71,9 @@ function Videolist(){
       </select>
       <button onClick={filtersearch}>search</button>
       </div>
-      <div class="big">
     <div class="ui four cards" id="sadasd">
       {filteredStaff3.map(Search2)}   
-    </div>       </div>   
+    </div>      
     </div>   
     );
 function Search2(item,i){
