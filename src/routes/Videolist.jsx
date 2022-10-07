@@ -93,8 +93,6 @@ function Search2(item,i){
             {item.author}
           </p>
         </div>
-        <div>
-          </div>
           </Link>
         </div>
      );
