@@ -89,9 +89,7 @@ function Search2(item,i){
           <img src={item.img} alt="HTML5 Logo" class="photo" id="photo1"/>
           <div class="tip">
         <strong>{item.title}</strong>
-          <p>
             {item.author}
-          </p>
         </div>
           </Link>
         </div>
