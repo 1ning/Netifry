@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom"
 import Signup from './routes/Signup';
 import Questionlist from './routes/Questionlist';
 import Articlelist from './routes/Articlelist';
-import Pay from './routes/Pay';
+
 import Plan from './routes/Plan';
 import Player from './routes/Player';
 import Upload from './routes/Upload';
@@ -32,7 +32,6 @@ function App() {
     <Route path='/Post' element={ <Postcard />}/>
     <Route path='/Signup' element={ <Signup />}/>
     <Route path='/Plan' element={ <Plan />}/>
-    <Route path='/Pay' element={ <Pay />}/>
     <Route path='/Reset' element={ <Reset />}/>
     </Routes>
     )     
