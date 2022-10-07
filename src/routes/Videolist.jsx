@@ -85,12 +85,6 @@ function Search2(item,i){
     {
       return(
         <div class="light"  onClick={handleMore}> 
-          <Link to="/Player">
-          <img src={item.img} alt="HTML5 Logo" class="photo" id="photo1"/>
-          <div class="tip">
-        <strong>{item.title}</strong>
-        </div>
-          </Link>
         </div>
      );
     }
